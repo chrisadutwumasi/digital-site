@@ -1,0 +1,44 @@
+/* Big tablets to smaller laptop screens*/
+@media only screen and (max-width:1200px){
+    html, body{
+       
+        font-size: 14px;
+    }
+    .about-para {
+        margin-bottom: 15px;
+    }
+    .section-heading, 
+    .testimonial-heading,
+    .packages-heading,
+    .contact-heading{
+        margin-top: 90px;
+    }
+
+   
+}
+
+/* Smaller tablets to larger screens*/
+@media only screen and (max-width:1023px){
+    html, body{
+        font-size: 12px;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .about-box{
+        margin-top: 60px;
+    }
+
+}
+
+/* larger phones to smaller tablet screens*/
+@media only screen and (max-width:767px){
+
+}
+
+/* smaller to larger mobile phones */
+@media only screen and (max-width:479px){
+
+}
